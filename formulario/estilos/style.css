@@ -1,0 +1,119 @@
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: middle; /* Alinea la imagen con el texto */
+    width: 5cm;
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin: 0 5px; /* Añade un pequeño margen lateral para espaciarlo del texto */
+}
+
+
+header h3 {
+    color: #333;
+    font-weight: 600;
+    text-align: center;
+}
+
+.datos p {
+    font-size: 0.9em;
+    color: #666;
+    margin: 0;
+}
+
+h5 {
+    font-size: 1.4em;
+    color: #007bff;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+label {
+    font-weight: bold;
+    color: #555;
+}
+
+/* Formulario */
+.form-control {
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    padding: 8px;
+    font-size: 1em;
+}
+
+.form-select {
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 1em;
+}
+
+textarea.form-control {
+    resize: vertical;
+}
+
+.mb-3 {
+    margin-bottom: 1.5rem;
+}
+
+/* Radio Buttons */
+.custom-radio .custom-control-label {
+    color: #333;
+    font-weight: normal;
+}
+
+.custom-control-input:checked ~ .custom-control-label::before {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+/* Buttons */
+.btn-link {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.btn-link:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 0.9em;
+    color: #888;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+
+    header h3 {
+        font-size: 1.2em;
+    }
+
+    h5 {
+        font-size: 1.2em;
+    }
+}
